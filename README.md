@@ -51,7 +51,7 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 ### Skeletons
 
-### Boundary maps
+### Face maps
 
 ### Incidence maps
 
@@ -59,11 +59,12 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 
 
-## Planar graphs
+## Planar graphs and triangulations
 
 ### Duality
 
 ### Polygons
 
-### Half-edge data structure
+### Euler's formula
 
+### Half-edge data structure
