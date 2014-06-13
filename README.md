@@ -14,11 +14,11 @@ But graphs are 1 dimensional structures (even though they can be embedded in hig
 
 ### Cell complexes
 
-There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form different spaces. Different types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, a popular mathematical formulation are [CW complexes](http://en.wikipedia.org/wiki/CW_complex), which are the basic objects of study in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism).
+There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form a larger and more complex space. Types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, [CW complexes](http://en.wikipedia.org/wiki/CW_complex) are a popular mathematical formulation for spaces in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism). This generality is mathematically convenient for constructing and reasoning about spaces on paper, but it does not lend itself well to representation on a computer. Instead, other more limited definitions are often used.
 
 ### Simplicial sets
 
-While CW complexes are mathematically powerful, they are difficult to represent in a computer.
+
 
 ### Other types of cell complexes
 
