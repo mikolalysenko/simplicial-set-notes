@@ -14,29 +14,36 @@ But graphs are 1 dimensional structures (even though they can be embedded in hig
 
 ### Cell complexes
 
-There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form a larger and more complex space. Types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, [CW complexes](http://en.wikipedia.org/wiki/CW_complex) are a popular mathematical formulation for spaces in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism). This generality is mathematically convenient for constructing and reasoning about spaces on paper, but it does not lend itself well to representation on a computer. Instead, other more limited definitions are often used.
+There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form a larger and more complex space. Types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, [CW complexes](http://en.wikipedia.org/wiki/CW_complex) are a popular mathematical formulation for spaces in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism). This generality is mathematically convenient for constructing and reasoning about spaces on paper, but it does not lend itself well to representation on a computer.
 
-### Simplicial sets
+### Simplicial complexes
 
-
+Instead, more restricted types of cell complexes are often used to represent topological spaces in a computer. Probably the most popular method here is the notion of a simplicial complex.
 
 ### Other types of cell complexes
 
-* Cubical complex
-* Whitney regular stratification http://en.wikipedia.org/wiki/Stratification_(mathematics)
+Finally, it is worth briefly mentioning a few of the other options for encoding cells (though we won't say much about them in detail):
 
+* [Cubical complexes](http://inperc.com/wiki/index.php?title=Cubical_complex): Cubical complexes represent geometry as a union of boxes or hypercubes (think Minecraft).  For certain types of boxy geometry, they can be much more eficient than simplices, but are more limited in the sorts of shapes they can represent.
+* [Whitney regular stratification](en.wikipedia.org/wiki/Stratification_%28mathematics%29): Stratifications represent spaces as a decomposition of semi-algebraic sets, allowing for smooth shapes like polynomial curves, surfaces and so on.
 
+## Variations on simplicial complexes
 
+In graph theory, one encounters many variations on the concept of a graph, which have subtly different properties:
 
-## Variations on simplicial sets
+* [Undirected graphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Undirected_graph)
+* [Directed graphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Directed_graph)
+* [Multigraphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Multigraph)
+* [Graphs with loops](en.wikipedia.org/wiki/Loop_%28graph_theory%29)
 
-### Simplicial sets
+These properties generalize in various ways to simplicial complexes, which we shall now sketch out briefly.
 
-### (Unoriented) simplicial complexes
+### Simplicial complexes
 
 ### Oriented simplicial complexes
 
-### Multisets and multigraphs
+### Simplicial sets
+
 
 
 
@@ -48,13 +55,15 @@ There are multiple ways to generalize graphs, though the most successful has bee
 
 ### Incidence maps
 
+### Data structures for topological queries
+
 
 
 ## Planar graphs
 
 ### Duality
 
-### Polygons and graphs
+### Polygons
 
-
+### Half-edge data structure
 
