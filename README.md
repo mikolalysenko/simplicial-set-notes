@@ -14,11 +14,19 @@ But graphs are 1 dimensional structures (even though they can be embedded in hig
 
 ### Cell complexes
 
-There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form a larger and more complex space. Types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, [CW complexes](http://en.wikipedia.org/wiki/CW_complex) are a popular mathematical formulation for spaces in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism). This generality is mathematically convenient for constructing and reasoning about spaces on paper, but it does not lend itself well to representation on a computer.
+There are multiple ways to generalize graphs, though the most successful has been the concept of a [cell complex](http://en.wikipedia.org/wiki/Abstract_cell_complex). Cell complexes are made out of simple units called *cells*, which are then glued together to form a larger and more complex space. Types of cell complexes differ in the sorts of cells that they allow and the ways in which they are glued together. For example, [CW complexes](http://en.wikipedia.org/wiki/CW_complex) are a popular mathematical formulation for spaces in [homotopy theory](http://en.wikipedia.org/wiki/Homotopy). In a CW complex, cells can be any [contractible space](http://en.wikipedia.org/wiki/Contractible_space) (picture: a blob/potato), and the binding relations are arbitrary [homeomorphisms](http://en.wikipedia.org/wiki/Homeomorphism) (picture: stretch/squish the blobs and glue them together). This generality is mathematically convenient for constructing and reasoning about spaces on paper, but it can be hard to translate into a computer.
 
 ### Simplicial complexes
 
-Instead, more restricted types of cell complexes are often used to represent topological spaces in a computer. Probably the most popular method here is the notion of a simplicial complex.
+Instead, more restricted types of cell complexes are often more useful when it comes down to crunching numbers. The most popular digital representation of spaces are [simplicial complexes](http://en.wikipedia.org/wiki/Simplicial_complex). Simplicial complexes are widely used in graphics and engineering, and they are the representation that we will be focusing.  The basic idea in a simplicial complex is to build up a space by gluing together [simplices](http://en.wikipedia.org/wiki/Simplex). Briefly,
+
+* A 0D simplex is a point
+* A 1D simplex is an edge
+* A 2D simplex is a [triangle](http://en.wikipedia.org/wiki/Triangle)
+* A 3D simplex is a [tetrahedron](http://en.wikipedia.org/wiki/Tetrahedron)
+* ...
+
+The connection between graphs and simplicial complexes should be clear, since a graph is a 1D simplicial complex is exactly a graph.
 
 ### Other types of cell complexes
 
@@ -40,10 +48,13 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 ### Simplicial complexes
 
+
+
 ### Oriented simplicial complexes
 
-### Simplicial sets
+### Delta sets
 
+### Simplicial sets
 
 
 
@@ -55,7 +66,7 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 ### Incidence maps
 
-### Data structures for topological queries
+### Data structures
 
 
 
@@ -67,4 +78,4 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 ### Euler's formula
 
-### Half-edge data structure
+### Half-edge
