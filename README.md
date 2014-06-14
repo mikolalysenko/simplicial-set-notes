@@ -34,6 +34,7 @@ Finally, it is worth briefly mentioning a few of the other options for encoding 
 
 * [Cubical complexes](http://inperc.com/wiki/index.php?title=Cubical_complex): Cubical complexes represent geometry as a union of boxes or hypercubes (think Minecraft).  For certain types of boxy geometry, they can be much more eficient than simplices, but are more limited in the sorts of shapes they can represent.
 * [Whitney regular stratification](en.wikipedia.org/wiki/Stratification_%28mathematics%29): Stratifications represent spaces as a decomposition of semi-algebraic sets, allowing for smooth shapes like polynomial curves, surfaces and so on.
+* [Hypergraphs](http://en.wikipedia.org/wiki/Hypergraph): Hypergraphs are similar to simplicial sets, but adopt different notation.
 
 ## Basic concepts in simplicial complexes
 
@@ -50,25 +51,25 @@ We also require that all subsets of all cells in C are also contained in C. Note
 
 For each cell, we say that the *dimension* of the cell is equal to the (number of elements in the cell) - 1. For example, a cell with one element is 0 dimensional, a cell with 2 elements is 1 dimensional, and so on. Under this identification, we can group all of the cells in the complex by dimension. This leads us to the concept of the [n-skeleton](http://en.wikipedia.org/wiki/N-skeleton) of a simplicial complex, which is the collection of all n-dimensional cells in the complex.
 
-### Boundaries
+### Faces and incidence
 
-### Incidence
+The faces of an n-cell are the set of all (n-1)-subsets of the cell.  A cell S is incident to a cell T if it is a proper subset of that cell.
 
-### Triangulability
+### Triangulations
 
-
-
+A triangulation of a space is a homeomorphsism from a simplicial complex to that space.  Not all space can be triangulated though.  For example, the [E8 manifold](http://en.wikipedia.org/wiki/E8_manifold) is a 4D space that cannot be triangulated (that is there is no simplicial complex which can represent this space, even up to topology).
 
 ## Variations on simplicial complexes
 
-In graph theory, one encounters many variations on the concept of a graph, which have subtly different properties:
+In graph theory, one encounters many different types of graphs:
 
 * [Undirected graphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Undirected_graph)
 * [Directed graphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Directed_graph)
 * [Multigraphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Multigraph)
-* [Graphs with loops](en.wikipedia.org/wiki/Loop_%28graph_theory%29)
+* [Graphs with loops](http://en.wikipedia.org/wiki/Loop_%28graph_theory%29)
+* [Weighted graphs](http://en.wikipedia.org/wiki/Graph_(mathematics)#Weighted_graph)
 
-These properties generalize in various ways to simplicial complexes, which we shall now sketch out briefly.
+As we've already seen, simplicial complexes generalize undirected graphs, and like undirected graphs simplicial complexes can be generalized along these same lines.
 
 ### Oriented simplicial complexes
 
@@ -76,7 +77,7 @@ These properties generalize in various ways to simplicial complexes, which we sh
 
 ### Simplicial sets
 
-
+### Tensors
 
 
 
