@@ -33,7 +33,7 @@ The connection between graphs and simplicial complexes should be clear, since a 
 Finally, it is worth briefly mentioning a few of the other options for encoding cells (though we won't say much about them in detail):
 
 * [Cubical complexes](http://inperc.com/wiki/index.php?title=Cubical_complex): Cubical complexes represent geometry as a union of boxes or hypercubes (think Minecraft).  For certain types of boxy geometry, they can be much more eficient than simplices, but are more limited in the sorts of shapes they can represent.
-* [Whitney regular stratification](en.wikipedia.org/wiki/Stratification_%28mathematics%29): Stratifications represent spaces as a decomposition of semi-algebraic sets, allowing for smooth shapes like polynomial curves, surfaces and so on.
+* [Whitney regular stratification](http://en.wikipedia.org/wiki/Stratification_%28mathematics%29): Stratifications represent spaces as a decomposition of semi-algebraic sets, allowing for smooth shapes like polynomial curves, surfaces and so on.
 * [Hypergraphs](http://en.wikipedia.org/wiki/Hypergraph): Hypergraphs are similar to simplicial sets, but adopt different notation.
 
 ## Basic concepts in simplicial complexes
